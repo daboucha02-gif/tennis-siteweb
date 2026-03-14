@@ -1,0 +1,371 @@
+.hero{
+    background-color: #222;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ }
+ .hero{
+    background-image: url('images/tennis.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ }
+ .Welcome-card{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.3);
+    margin: auto;
+    width: 90%;
+    max-width: 700px;
+ }
+ .welcome-text h1{
+    color: #1e3d2f;
+    font-size: 36px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+ }
+ .centre-image{
+    width: 400px;
+    border-radius: 15px;
+    display: block;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+    margin:  20px auto;
+    
+ }
+ .hero h2{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+ }
+ .hero p{
+    color:white;
+    line-height: 1.6;
+    font-size: 16px;
+    max-width: 700px;
+    margin: auto;
+ }
+ .hero img{
+    width: 600px;
+    min-width: 80%;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px;
+ 
+ }
+  body{
+     margin: 0;
+     padding: 0;
+     font-family: 'Arial', Arial, Helvetica, sans-serif;
+     box-sizing: border-box;
+     color:black ;
+  }
+  #page-célébrités{
+     background-color: #F8F9FA;
+  }
+  #page-tournois{
+     background-color: #E8F9FA;
+  }
+  #page-histoire{
+     background-color: #FDFBF7;
+  }
+  header{
+     background-color: #1e3d2f;
+     color: white;
+     text-align: center;
+     padding: 20px 0;
+  }
+  nav{
+     background-color: black;
+     text-align: center;
+     padding: 15px;
+     display: flex;
+     justify-content: center;
+        gap: 25px;
+        position: sticky;
+          top: 0;
+             z-index: 1000;
+  }
+  nav a{
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+     text-transform: uppercase;
+     font-size: 14px;
+     transition: 0.3s;
+  }
+  nav a:hover{
+     color: #c5a059;
+     cursor:auto;
+      border-bottom: 2px solid #c5a059;
+  }
+    nav a.active{
+       color: #c5a059;
+       border-bottom: 2px solid #c5a059;
+    }
+  section{
+     padding: 30px;
+  }
+  img{
+     width: 300px;
+     border-radius: 10px;
+     display: flex;
+  }
+  footer{
+     background-color:#c5a059;
+     color: white;
+     text-align: center;
+     padding: 20px 0;
+    }
+  .actualité-section{
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 60px 20px;
+  }
+  .social-icons{
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+  }
+  .social-icons img {
+     width: 40px;
+     margin: 20px;
+     transition: transform 0.3s;
+     cursor: pointer;
+  }
+  .social-icons img:hover{
+     transform: scale(1.2);
+  }
+  .video-container-wrapper {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 50px;
+     padding: 50px 20px;
+     background-color:#3444abaf;
+    text-align: left;
+    padding: 80px;
+  }
+  .video-container-wrapper video {
+    border-radius: 20px;
+    width: 80%;
+    margin: auto;
+  }
+  
+  footer{
+     background-color: #1e3d2f;
+     color: white;
+     text-align: center;
+     padding: 20px;
+     margin-top: 0;
+ }
+ .container-cards {
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+     padding: 50px;
+     background-color: #222;
+ }
+ 
+ .card {
+     width: 1000px;
+     background: #e65100;
+     border-radius: 15px;
+     overflow: hidden;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+ }
+ .slider {
+     width: 100%;
+     height: 200px;
+     overflow: hidden;
+ }
+ 
+ .slides {
+     display: flex;
+     width: 200%;
+     animation: slideAnimation 10s infinite;
+     
+ }
+ @keyframes slideAnimation {
+     0% { transform: translateX(0); }
+     50% { transform: translateX(-50%); }
+     100% { transform: translateX(0); }
+ }
+ 
+ 
+ .slides img {
+     width: 50%; 
+     height: 200px;
+     object-fit: cover;
+ }
+ .btn {
+     display: block;
+     padding: 10px;
+     background: white;
+     color: black;
+     text-decoration: none;
+     text-align: center;
+     border-radius: 5px;
+ }
+ .btn:hover {
+     background: #e65100;
+ }
+ h2{
+   color: #d0e20b;    
+   text-align: left; 
+   margin-top: 30px;
+   margin-bottom: 10px;
+   background-color: transparent;
+   padding: 0;
+ }
+ h3{
+     background-color:black;
+      color: white;
+ }
+  li{
+   background-color: #1e3d2f; 
+   color: white;              
+   margin: 20px auto;        
+   padding: 35px;             
+   border-radius: 20px;       
+   list-style-position: inside; 
+   box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+   max-width: 1250px;         
+   width: 95%;                
+  }
+  .card:hover {
+     transform: translateY(-10px);
+     box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+     transition: 0.3s;
+   }
+   .story-section {
+     background-color: #222;
+     color: white;
+     padding: 60px 20px;
+     text-align: center;
+    }
+    .story-section h2 {
+     font-size: 36px;
+     margin-bottom: 20px;
+     letter-spacing: 2px;
+    }
+    
+
+.serena-container,.nadal-container,.federer-container,.djokovic-container, .origine-container,.tournois-container {
+   display: flex;          
+   align-items: flex-start; 
+   gap: 40px;              
+   margin-top: 20px;
+}
+
+.text-block {
+   flex: 2;                
+   text-align: left;       
+}
+
+.image-block {
+   flex: 1;               
+}
+.right-image {
+   width: 100%;           
+   max-width: 350px;       
+   border-radius: 15px;
+   box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+}
+p {
+   text-align: left;
+   margin-left: 0;
+}
+h5{
+   text-align: center;
+}
+h6{
+   text-align: center;
+   color: black;
+}
+h4{
+   text-align: center;
+   margin-top: 20px;
+   color:white;
+}
+.tournaments-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 40px 5%;
+}
+.video-card {
+      background-color: #1e3d2f;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    border: 1px solid #eee;
+    position: relative;
+    overflow: hidden;
+}
+.card-logo {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin: 15px auto;
+    display: block;
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+}
+
+.video-card:hover {
+    transform: translateY(-10px);
+}
+.badge {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: white;
+}
+.gazon { background-color: #2e7d32; }
+.terre { background-color: #d84315; }
+.dur { background-color: #1565c0; }
+.equipe, .pro { background-color: #424242; }
+.youtube-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF0000;
+    color: white !important;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+
+.youtube-btn:hover {
+    background-color: #cc0000;
+}
+
+.play-icon {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.intro-box {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1e3d2f;
+    color: white;
+}
